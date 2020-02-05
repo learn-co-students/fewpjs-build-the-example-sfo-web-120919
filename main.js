@@ -1,8 +1,36 @@
 // Defining text characters for the empty and full hearts for you to use later.
-const EMPTY_HEART = '♡'
-const FULL_HEART = '♥'
+let EMPTY_HEART = '♡'
+let FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
+
+const likeButton = document.getElementsByClassName("like-glyph")[0]
+
+likeButton.addEventListener("click", function(){
+
+  likeButton.innerText = FULL_HEART
+  
+  
+  
+  
+})
+
+const modalDiv = document.getElementById("modal")
+modalDiv.classList.add("hidden");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
